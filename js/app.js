@@ -1,9 +1,8 @@
-'use strict';
-/* 
+/*
 location of the bars in Pittsburgh store in  "initialLocations" object array
-initialLocations is a array of bar objects 
-bar object has attributes name ,lat and long 
-name : name of the bar 
+initialLocations is a array of bar objects
+bar object has attributes name ,lat and long
+name : name of the bar
 lat :latitude
 long:longitude
 */
@@ -60,16 +59,16 @@ var initialLocations = [
 	},{//40.446233, -80.010667
 		name: 'Bar Louie',
 		lat: 40.446233,
-		long: -80.010667 
+		long: -80.010667
 	},{//40.434020, -80.004916
 		name: 'Hard Rock Cafe',
 		lat:40.434020 ,
-		long:-80.004916 
+		long:-80.004916
 	}
 	,{//40.455613, -80.013254
 		name: 'Monterey Pub',
 		lat: 40.455613,
-		long:-80.013254 
+		long:-80.013254
 	}
 	,{//40.428864, -79.986619
 		name: 'Jack\'s Bar',
@@ -79,12 +78,12 @@ var initialLocations = [
 	,{//40.427406, -79.968673
 		name: 'Excuses Bar & Grill',
 		lat:40.427406 ,
-		long:-79.968673 
+		long:-79.968673
 	}
 	,{//40.440307, -80.002646
 		name: 'Primanti Bros',
 		lat:40.440307 ,
-		long:-80.002646 
+		long:-80.002646
 	}
 ];
 
